@@ -21,11 +21,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">The Firm</a></li>
-                <li class="nav-item"><a class="nav-link" href="courses.html">Our Courses</a></li>
-                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-                <li class="nav-item ms-lg-3"><a class="btn btn-warning rounded-pill px-4 fw-bold" href="https://wa.me/918799215845" style="background:var(--gold)">Talk to Expert</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">OUR COURSES</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
             </ul>
         </div>
     </div>
@@ -61,8 +60,9 @@
                 <div class="info-card text-center">
                     <div class="info-icon mx-auto"><i class="fa-solid fa-location-dot"></i></div>
                     <h5 class="fw-bold text-navy">Our Center</h5>
-                    <p class="text-muted mb-0">Ahmedabad, Gujarat</p>
-                    <p class="text-muted">Visit for Free Demo</p>
+                    <p class="text-muted mb-0">Office No 003, 2nd Floor,</p>
+                    <p class="text-muted mb-0">Arved Transcube Plaza</p>
+                    <p class="text-muted mb-0">Ranip, Ahmedabad, Gujarat - 380022</p>
                 </div>
             </div>
         </div>
@@ -72,46 +72,12 @@
 <section class="py-5">
     <div class="container py-5">
         <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="contact-form-wrapper">
-                    <h2 class="fw-bold text-navy mb-4">Send a Message</h2>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label class="small fw-bold mb-2">Full Name</label>
-                                <input type="text" class="form-control" placeholder="John Doe">
-                            </div>
-                            <div class="col-md-6">
-                                <label class="small fw-bold mb-2">Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="+91">
-                            </div>
-                            <div class="col-12">
-                                <label class="small fw-bold mb-2">Interested Course</label>
-                                <select class="form-select form-control">
-                                    <option selected>Select a Course</option>
-                                    <option>TallyPrime & GST</option>
-                                    <option>Direct Tax & TDS</option>
-                                    <option>Adv. Excel & MIS</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <label class="small fw-bold mb-2">Your Message</label>
-                                <textarea class="form-control" rows="4" placeholder="How can we help you?"></textarea>
-                            </div>
-                            <div class="col-12 mt-4">
-                                <button type="submit" class="btn btn-navy w-100">Send Inquiry</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="map-container">
                     <div class="map-container h-100">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117506.38111360055!2d72.5023157!3d23.0201817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fccd11707d563a4!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1709424000000!5m2!1sen!2sin"
-                            width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy">
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.6646!2d72.5756933!3d23.068285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83869931046f%3A0x39072bacfdf7d8f1!2sArved%20Transcube%20Plaza%20-%20The%20Family%20Mall!5e0!3m2!1sen!2sin!4v1234567890"
+                            width="100%" height="100%" style="border:0; min-height: 500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
                 </div>
@@ -139,6 +105,149 @@
         <div class="text-center small opacity-50">© 2026 Finspire Institute of Accounting | Ahmedabad, Gujarat.</div>
     </div>
 </footer>
+
+<div id="admissionBanner" class="admission-banner">
+    <div class="container">
+        <div class="banner-content">
+            <div class="banner-text">
+                <i class="fa-solid fa-graduation-cap banner-icon"></i>
+                <span>Admissions Open 2026! <strong>Apply now</strong> to start your accounting career.</span>
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMj673Tla6t4D9fOiiafgk8JSeZCUcnBk1cZ5yDxY2oPf6pQ/viewform" target="_blank" class="btn-admission">
+                Apply Now
+            </a>
+            <button id="closeBanner" class="close-banner" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+.admission-banner {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, var(--navy) 0%, #1a365d 100%);
+    border: 2px solid var(--gold);
+    border-radius: 12px;
+    padding: 15px 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    z-index: 9999;
+    animation: slideIn 0.5s ease-out;
+    max-width: 400px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 14px;
+    flex: 1;
+}
+
+.banner-icon {
+    color: var(--gold);
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.btn-admission {
+    background: var(--gold);
+    color: var(--navy);
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.btn-admission:hover {
+    background: #ffd700;
+    transform: translateY(-2px);
+}
+
+.close-banner {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    line-height: 1;
+}
+
+.close-banner:hover {
+    color: white;
+    background: rgba(255,255,255,0.1);
+}
+
+@media (max-width: 768px) {
+    .admission-banner {
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        max-width: none;
+    }
+
+    .banner-text {
+        font-size: 12px;
+    }
+
+    .btn-admission {
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+
+    .banner-icon {
+        font-size: 20px;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const banner = document.getElementById('admissionBanner');
+    const closeBtn = document.getElementById('closeBanner');
+
+    if (!sessionStorage.getItem('admissionBannerClosed')) {
+        banner.style.display = 'flex';
+    } else {
+        banner.style.display = 'none';
+    }
+
+    closeBtn.addEventListener('click', function() {
+        banner.style.display = 'none';
+        sessionStorage.setItem('admissionBannerClosed', 'true');
+    });
+});
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
